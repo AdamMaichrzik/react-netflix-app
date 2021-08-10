@@ -1,3 +1,4 @@
+import { Notifications, Search } from "@material-ui/icons";
 import "./navbar.scss";
 function Navbar() {
 	return (
@@ -14,7 +15,11 @@ function Navbar() {
                     <span>New and popular</span>
                     <span>My list</span>
 				</div>
-				<div className="right"></div>
+				<div className="right">
+                    <Search/>
+                    <span>KID</span>
+                    <Notifications/>
+                </div>
 			</div>
 		</div>
 	);
