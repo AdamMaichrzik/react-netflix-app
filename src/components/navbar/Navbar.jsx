@@ -1,9 +1,8 @@
 import "./navbar.scss"
-
 function Navbar() {
     return (
-        <div>
-            
+        <div className="navbar">
+            navbar
         </div>
     )
 }
