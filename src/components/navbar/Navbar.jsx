@@ -23,7 +23,13 @@ function Navbar() {
 						src="https://avatars.githubusercontent.com/u/64159448?v=4"
 						alt="Profile picture"
 					/>
-                    <ArrowDropDown/>
+					<div className="profile">
+						<ArrowDropDown className="icon" />
+						<div className="options">
+							<span>Settings</span>
+							<span>Logout</span>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
